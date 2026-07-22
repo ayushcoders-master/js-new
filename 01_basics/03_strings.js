@@ -26,3 +26,5 @@ console.log(url.replace("client" ,"ayush"))
 console.log(url.includes("sundar")) // check wheather it is include in the url or not
 
 console.log(name.split('-'))
+
+console.log(name.slice(-8,9))
