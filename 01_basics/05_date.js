@@ -7,10 +7,13 @@ let myDate = new Date()
 // console.log(myDate.toISOString())
 
 
-console.log(myDate.toJSON())
+// console.log(myDate.toJSON())
 
-console.log(myDate.toTimeString())
+// console.log(myDate.toTimeString())
 
 
 let myCreateDate = new Date(2026,6,23,23,6)
 console.log(myCreateDate.toLocaleString())
+
+const mYtIME = Date.now()
+console.log(mYtIME)
