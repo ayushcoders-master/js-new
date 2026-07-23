@@ -13,7 +13,13 @@ let myDate = new Date()
 
 
 let myCreateDate = new Date(2026,6,23,23,6)
-console.log(myCreateDate.toLocaleString())
+// console.log(myCreateDate.toLocaleString())
 
 const mYtIME = Date.now()
-console.log(mYtIME)
+// console.log(mYtIME)
+const newDate = new Date()
+console.log(newDate.toLocaleString('default',
+    {
+        weekday:"long"
+    }
+))
